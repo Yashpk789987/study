@@ -21,7 +21,16 @@ const arr = [1, 2, 3, 4, 5];
 // (map , filter, reducer)
 // method 3 map
 
-arr.map(function (item, index) {
+const newArray = arr.map(function (item, index) {
   console.log(item, "Item");
   console.log(index, "Index");
+  return 10 * item;
 });
+
+const newArray2 = arr.map((item, index) => {
+  console.log(item, "Item");
+  console.log(index, "Index");
+  return 10 * item;
+});
+
+console.log(newArray, newArray2);
