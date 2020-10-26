@@ -16,6 +16,8 @@ only backend (HTML,CSS,JAVASCRIPT)
 
 # 2. flipkart clone (full stack)(express , sequelize , Reactjs , nodejs) and many small things
 
+     (many things we will learn)
+
 backend express  
  database postgtres (seqeulize)
 frontend ReactJS
